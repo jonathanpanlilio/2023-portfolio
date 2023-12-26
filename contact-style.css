@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+}
+.contact-nav-bar {
+  font-family: "Lato", sans-serif;
+  width: 100%;
+}
+
+.contact-nav-bar ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  list-style: none;
+  font-size: 24px;
+}
+
+.contact-nav-bar li:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.contact-container {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  border: solid black 1px;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.contact-container h1 {
+  font-weight: 100;
+}
+.contact-container p {
+  font-weight: bold;
+}
+button {
+  width: 33%;
+  border-style: groove;
+  padding: 3px;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: black;
+  color: #e6e6e6;
+}
+.contact-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+.question-text {
+  text-decoration: underline;
+}
+.no-link {
+  color: inherit; /* Keeps the original text color */
+  text-decoration: none; /* Removes underline or other decorations */
+}
+
+@media (max-width: 490px) {
+}
